@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>cbit project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images-2/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Certificates and online programs for 2021</h1>
+    </section>   
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images-2/certificate.jpeg">
+                <h2>Our Certificates and online programs for 2021</h2>
+                <p>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, established in the Year 1979, esteemed as the Premier Engineering Institute in the States of Telangana and Andhra Pradesh, was promoted by a Group of Visionaries from varied Professions of Engineering, Medical, Legal and Management, with an Objective to facilitate the Best Engineering and Management Education to the Students and contribute towards meeting the need of Skilled and Technically conversant Engineers and Management Professionals, for the Country that embarked on an Economic Growth Plan.</p>
+                <br>
+                <p>The Institute, committed to Education and Innovation, started with three-Degree Courses in Engineering for 200 Students and over the 42 Years, has emerged as a Dream Destination for; Students seeking to excel in Engineering and Management Education, Teaching Community to progress with a rewarding Career and Corporates to source well-rounded Engineers.</p>
+                <br>
+                <p>Stringent Academic Standards, Industry compliant Teaching Methodology, Research Projects from Private and Public Sector Industries in Engineering and Management and Consultancy Practice, enabled the Institute to establish its Identity in the Technical Education and is Ranked No. 1 amongst the Private Engineering Colleges in both the Telugu Speaking States.</p>
+                <div class="comment-box">
+                    <h3>leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>post cotegories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>journalism</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+            </div>
+        </div>
+
+
+    </section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, established in the Year 1979, esteemed as the Premier Engineering Institute in the States of Telangana and Andhra Pradesh, was promoted by a Group of Visionaries from varied Professions of Engineering, Medical, Legal and Management, with an Objective to facilitate the Best Engineering and Management Education to the Students and contribute towards meeting the need of Skilled and Technically conversant Engineers and Management Professionals, for the Country that embarked on an Economic Growth Plan.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i>Nikhil</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>

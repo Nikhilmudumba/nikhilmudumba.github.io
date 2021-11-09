@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>cbit project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images-2/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21064.927144834302!2d78.33982287794912!3d17.396459050448755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94eba8ad7c87%3A0xb78f51ed556f7cc5!2sChaitanya%20Bharathi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1635998599602!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h5>Gandipet main road besides MGIT</h5>
+                        <p>Hyderabad,Telangana,India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h5>+91 0123456789</h5>
+                        <p>Monday to Saturday,9:10AM to 4:20PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-0" aria-hidden="true"></i>
+                    <span>
+                        <h5>123@gmail.com</h5>
+                        <p>E-mail for query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form handler.php" method="post">
+                    <input type="text " name="name" placeholder="Enter your name" required>
+                    <input type="email " name="email" placeholder="Enter your email" required>
+                    <input type="text " name="subject" placeholder="Enter your subject" required>
+                    <textarea  rows="8" name="message" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, established in the Year 1979, esteemed as the Premier Engineering Institute in the States of Telangana and Andhra Pradesh, was promoted by a Group of Visionaries from varied Professions of Engineering, Medical, Legal and Management, with an Objective to facilitate the Best Engineering and Management Education to the Students and contribute towards meeting the need of Skilled and Technically conversant Engineers and Management Professionals, for the Country that embarked on an Economic Growth Plan.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i>Nikhil</p>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
